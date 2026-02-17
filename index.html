@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<title>CV</title>
+
+<style>
+
+/* -------------------- */
+/* SCREEN STYLING (DARK VERSION) */
+/* -------------------- */
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #0f172a;
+    font-family: "Segoe UI", Arial, sans-serif;
+    color: #e2e8f0;
+}
+
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    background: #111827;
+    padding: 50px;
+    box-shadow: 0 0 40px rgba(0, 255, 255, 0.08);
+    border: 1px solid rgba(0, 255, 255, 0.15);
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.profile-img {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 1px solid #334155;
+}
+
+h1 {
+    margin-bottom: 5px;
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: #00f5ff;
+}
+
+.title {
+    color: #0e0e0e;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-top: 30px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #00f5ff;
+    border-left: 3px solid #00f5ff;
+    padding-left: 10px;
+}
+
+p {
+    font-size: 14px;
+    margin: 6px 0;
+    line-height: 1.5;
+}
+
+ul {
+    margin: 6px 0 12px 18px;
+}
+
+li {
+    margin-bottom: 4px;
+}
+
+/* -------------------- */
+/* A4 PRINT OPTIMIZATION (ATS VERSION) */
+/* -------------------- */
+
+@page {
+    size: A4;
+    margin: 15mm;
+}
+
+@media print {
+
+    html, body {
+        width: 210mm;
+        height: 297mm;
+    }
+
+    body {
+        background: #ffffff;
+        color: #000000;
+        font-size: 11px;
+        line-height: 1.4;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+
+    .container {
+        box-shadow: none;
+        border: none;
+        background: #ffffff;
+        padding: 0;
+        margin: 0;
+        max-width: 100%;
+    }
+
+    h1 {
+        font-size: 20px;
+        color: #000000;
+        margin-bottom: 4px;
+    }
+
+    h2 {
+        font-size: 12px;
+        color: #000000;
+        border: none;
+        padding: 0;
+        margin-top: 14px;
+        margin-bottom: 4px;
+    }
+
+    p {
+        font-size: 11px;
+        margin: 3px 0;
+    }
+
+    ul {
+        margin: 4px 0 8px 14px;
+    }
+
+    li {
+        margin-bottom: 2px;
+    }
+
+    .profile-img {
+        width: 85px;
+        height: 85px;
+        border: 1px solid #000;
+    }
+
+    /* Sayfa kırılmasını azalt */
+    h2, ul, p {
+        page-break-inside: avoid;
+    }
+
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+    <div id="cv"></div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

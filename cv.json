@@ -1,0 +1,56 @@
+{
+  "name": "Cihan Kurtbey",
+  "title": "Software Developer | AI & Web Technologies",
+  "contact": {
+    "phone": "+90 545 658 34 02",
+    "email": "cihankurtbey@icloud.com",
+    "linkedin": "www.linkedin.com/in/cihankurtbey",
+    "github": "github.com/Cihankurtbey"
+  },
+  "about": "Yazılım Mühendisliği bölümüne 1. sıradan yerleşmiş bir son sınıf öğrencisi olarak, yapay zeka ve modern web teknolojilerinin kesişiminde uzmanlaşıyorum. RAG mimarisi, derin öğrenme ve Full-Stack geliştirme süreçlerinde edindiğim tecrübeyi, gerçek dünya problemlerine ölçeklenebilir ve insan odaklı çözümler üretmek için kullanıyorum. Karmaşık veri setlerinden anlamlı sonuçlar çıkaran ve yüksek performanslı yazılım ekosistemleri inşa etmeyi hedefleyen, çözüm odaklı bir mühendis adayıyım.",
+  "experience": [
+    {
+      "position": "AI Intern",
+      "company": "Acunmedya Akademi",
+      "date": "02.2025 – 06.2025",
+      "details": [
+        "Retrieval-Augmented Generation (RAG) mimarisi üzerine çalışan chatbot geliştirme projesinde aktif rol aldım.",
+        "Vektör tabanlı arama ve semantik benzerlik mekanizmalarının tasarım ve implementasyon süreçlerini yürüttüm.",
+        "OpenAI GPT entegrasyonu ile dinamik ve bağlama duyarlı yanıt üretim sisteminin geliştirilmesine katkı sağladım.",
+        "Tech Stack: Python, ChromaDB, SentenceTransformers, OpenAI API"
+      ]
+    },
+    {
+      "position": "Software Developer Intern",
+      "company": "Etra Holding",
+      "date": "09.2025 – 11.2025",
+      "details": [
+        "Python ve Django kullanarak web tabanlı bir uygulamanın backend geliştirme süreçlerinde görev aldım.",
+        "Model–View–Template (MVT) mimarisi doğrultusunda veri modeli tasarımı ve CRUD operasyonlarını gerçekleştirdim.",
+        "RESTful API geliştirme ve veritabanı entegrasyon süreçlerine katkı sağladım.",
+        "Uygulamanın performans ve kod organizasyonunu iyileştirmek amacıyla modüler yapılandırma çalışmaları yaptım.",
+        "Tech Stack: Python, Django, PostgreSQL, REST API, Git"
+      ]
+    }
+  ],
+  "education": {
+    "school": "İstanbul Sağlık ve Teknoloji Üniversitesi",
+    "degree": "Yazılım Mühendisliği (Lisans Programı)",
+    "year": "2022 - 2026"
+  },
+  "projects": [
+    {
+      "title": "LSTM Tabanlı Akıllı Sulama Sistemi",
+      "description": "Zaman serisi sensör verilerini kullanarak gelecekteki sulama ihtiyacını tahmin eden bir derin öğrenme projesidir. Veri ön işleme, LSTM model tasarımı ve optimizasyonu gerçekleştirilmiş, Streamlit ile arayüz geliştirilmiştir."
+    },
+    {
+      "title": "Yapay Zeka Destekli Eğitim Asistanı",
+      "description": "ChromaDB, OpenAI GPT ve SentenceTransformer kullanılarak geliştirilen bağlama duyarlı chatbot sistemi. Vektör tabanlı arama ve hibrit retrieval mimarisi tasarlanmıştır."
+    },
+    {
+      "title": "Rat Poz Tahmini – YOLOv8",
+      "description": "CVAT ile etiketlenen veri seti kullanılarak YOLOv8 pose estimation modeli geliştirilmiş ve %98.3 mAP50 başarı elde edilmiştir."
+    }
+  ],
+  "language": "English — Upper-Intermediate (B2, CEFR)"
+}
